@@ -1,6 +1,8 @@
 # PrettyJSON
 A lightweight JavaScript library for pretty and customisable JSON formatting of strings or objects.
 
+![Alt text](/example_output.png)
+
 ## Basic Usage
 - Just include `pretty-json.js`, and then call `prettify(j)` on your JSON object or string `j`.
 - Formatting works best if you wrap the output in a `<pre>`.
@@ -17,6 +19,4 @@ var newColors = {
 document.write('<pre>'+prettify(j, 4, newColors)+'</pre>');
 ```
 
-will set the tab size to `4` and override the default colors for booleans, nulls, and keys:
-
-![Alt text](/example_output.png)
+will set the tab size to `4` and override the default colors for booleans, nulls, and keys.
